@@ -1,4 +1,4 @@
-# 💻 Anup Goswami — Portfolio Website
+# 💻 Anup Goswami — Portfolio Website(https://anupportfolio-two.vercel.app/)
 
 Welcome to my personal portfolio website! A modern, animated portfolio showcasing my projects, skills, certifications, and experience as a developer.
 
@@ -164,17 +164,9 @@ VITE_EMAILJS_PUBLIC_KEY=your_public_key
 ## 📧 Contact
 
 Feel free to reach out to me through:
-- **Email**: [your-email@example.com]
-- **LinkedIn**: [your-linkedin-profile]
-- **GitHub**: [your-github-profile]
-- **Twitter**: [your-twitter-profile]
-
----
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
+- **Email**: [anupgoswami@gmail.com]
+- **LinkedIn**: [https://www.linkedin.com/in/anup-k-goswami/]
+- **GitHub**: [https://github.com/Anup9771/Anup9771]
 ---
 
 ## 🙏 Acknowledgments
