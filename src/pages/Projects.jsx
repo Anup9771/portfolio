@@ -1,14 +1,23 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Github, ExternalLink } from 'lucide-react'
+import { FaGithub } from 'react-icons/fa'
+import { ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
+  {
+    title: 'EngiNovaX',
+    desc: 'EngiNovaX.in is an educational platform for engineering students that provides study resources, technical content, project guidance, and career-related information.',
+    ss: '/EngiNovaX.png',
+    tech: ['HTML', 'Tailwind CSS', 'React Js', 'vercel'],
+    live: 'https://enginova-x-in.vercel.app/',
+    code: 'https://github.com/Anup9771/EnginovaX.in'
+  },
   {
     title: 'Face Recognition Attendance System',
     desc: 'AI-based Face Recognition Attendance System that automatically marks attendance using real-time face detection and recognition.',
     ss: '/attendence.png',
     tech: ['Python', 'NumPy', 'OpenCV', 'Face_recognition'],
-    live: '#',
+    live: 'https://face-recognition-attendance-system-ppkt.onrender.com',
     code: 'https://github.com/Anup9771/Face-Rocognition-Attendance-system'
   },
   {
@@ -133,7 +142,7 @@ export default function Projects() {
                       textDecoration: 'none'
                     }}
                   >
-                    <Github size={14} /> Code
+                    <FaGithub size={14} /> Code
                   </motion.a>
                   <motion.a
                     href={p.live}
